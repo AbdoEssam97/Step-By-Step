@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/step-by-step.css">
+    <title>Step By Step</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- start header  -->
+    <nav class="navbar navbar-expand-lg ms-4 me-2 pt-4 pb-4 ">
+        <div class="container-fluid position-relative">
+            <a class="navbar-brand logo fs-1 mb-3 me-5 "
+                style="color: #ff7200; font-family: Dancing Script, cursive !important;" href="#">A4Courses</a>
+            <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered text-light fs-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold text-uppercase " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link fw-bold  text-uppercase" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold text-uppercase" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Examples
+                        </a>
+                        <ul class="dropdown-menu"
+                            style="background: linear-gradient( to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50% );">
+                            <li><a class="dropdown-item text-light" href="#">Example 1</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Example 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider " style="background-color: #ff7200;">
+                            </li>
+                            <li><a class="dropdown-item text-light" href="#">More Examples</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="search d-flex " role="search">
+                    <input class="form-control me-2"
+                        style="background-color:transparent; border-color: #ff7200; color: white;" type="search"
+                        placeholder="tutorials" aria-label="Search">
+                    <button class="btn main-btn btn-outline-success text-light fw-bold rounded-pill "
+                        style="background-color: #ff7200; border: none;" type="submit">Search</button>
+                    <div class="massage">
+                        <button type="button" class="btn main-btn btn-primary ms-3 fw-bold rounded-pill  "
+                            data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"
+                            style="background-color: #ff7200; border: none; white-space: nowrap;">Send Message</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content "
+                                    style="background: linear-gradient( to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50% );">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 fw-bold" style="color: #ff7200;"
+                                            id="exampleModalLabel">
+                                            New
+                                            message
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="message-text" class="col-form-label fw-bold"
+                                                    style="color: #ff7200;">Message:</label>
+                                                <textarea class="form-control "
+                                                    style="color: #ff7200;border-color: #ff7200; background: linear-gradient( to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50% );"
+                                                    id="message-text"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn main-btn btn-secondary rounded-pill fw-bold "
+                                            style="background-color: red; border: none;"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn main-btn btn-primary rounded-pill fw-bold "
+                                            style="background-color: #ff7200; border: none;">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- end header  -->
+    <!-- start contant  -->
+    <div class="landing mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 text-light  ">
+                    <h1 class="fw-bold text-center mt-3 mb-3" style="color: #ff7200;">Web
+                        Design&Development</h1>
+                    <h2 class="fw-bold text-center mt-3 mb-3">Course</h2>
+                    <p class="text-start mw-50 fs-5 fw-lighter lh-base mt-3 mb-3"><br><span class="fw-bold fs-1"
+                            style="color: #ff7200; font-family: Dancing Script, cursive !important;">A4Courses </span>
+                        is
+                        optimized for
+                        learning,
+                        testing, and
+                        training.
+                        Examples might
+                        be simplified
+                        to improve reading and basic
+                        understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but
+                        we
+                        cannot warrant full correctness of all content. While using this site, you agree to have read
+                        and
+                        accepted our terms of use, cookie and privacy policy.</p><br><br>
+                    <button class="btn main-btn btn-primary rounded-pill fw-bold mt-3 mb-5 ps-5 pe-5"
+                        style="background-color: #ff7200; border: none;" type="submit">Join
+                        US</button>
+                </div>
+                <div class="login col-lg-4 mt-md-5 mt-lg-0 mt-sm-5 text-light">
+                    <form class="p-3 rounded-3"
+                        style="background: linear-gradient( to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50% );">
+                        <h1 class="text-center fw-bold mb-3" style="color: #ff7200;">Login</h1>
+                        <div class="mb-3 ms-2">
+                            <label for="exampleInputEmail1" class="form-label fw-bold text-color-yellow">Email
+                                address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                style="background-color: transparent; color: #fff; border-color: #ff7200; width: 90%;">
+                            <div id="emailHelp" class="form-text text-white-50">We'll never share your email with anyone
+                                else.</div>
+                        </div>
+                        <div class="mb-1 ms-2">
+                            <label for="exampleInputPassword1" class="form-label fw-bold text-color-yellow"
+                                style="background-color: transparent; color: #ff7200;">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                style="background-color: transparent;color: #fff; border-color: #ff7200;width: 90%;">
+                        </div>
+                        <div class="mb-1 ms-3 form-check">
+                            <input type="checkbox" class="form-check-input te" id="exampleCheck1"
+                                style="background-color: transparent; color: #ff7200;">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit"
+                                class="btn main-btn btn-primary rounded-pill fw-bold  ps-4 pe-4 text-uppercase"
+                                style="background-color: #ff7200; border: none;">login</button>
+                        </div>
+                        <div class="other-login text-center">
+                            <p class="text-white-50 mt-2">Don't Have An Account</p>
+                            <a class="sign-up fw-bold text-uppercase text-decoration-none text-light " href=""> Sign
+                                Up</a>
+                            <p class="text-white-50">login with</p>
+                            <ul
+                                class="account-icon list-unstyled d-flex align-items-center justify-content-center gap-5 ">
+                                <li><a href=""><i class="fa-brands fa-2x fa-facebook "></a></i></li>
+                                <li><a href=""><i class="fa-brands fa-2x fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-2x fa-google"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-2x  fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contant  -->
+    <script src="Js/all.min.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

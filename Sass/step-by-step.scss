@@ -1,0 +1,110 @@
+// import colors
+@use "./Colors/color" as *;
+
+body {
+  font-family: "Cairo", sans-serif !important;
+  background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../Img/1.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.text-color-yellow {
+  color: $yellew;
+}
+.main-btn {
+  transition: 0.3s;
+  &:hover {
+    color: $yellew !important;
+    background-color: $white !important;
+  }
+}
+::-ms-check {
+  color: $yellew;
+  background-color: $yellew;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.861);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.861);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $yellew;
+  border-radius: 15px;
+  &:hover {
+    background-color: $white;
+  }
+}
+::-webkit-scrollbar-corner {
+  background-color: rgba(0, 0, 0, 0.861);
+}
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.861);
+}
+::-webkit-scrollbar-button {
+  background-color: rgba(0, 0, 0, 0.861);
+}
+/* start header */
+
+nav.navbar {
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: $yellew;
+    height: 1px;
+    width: 70%;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .nav-link {
+    color: $white;
+    transition: 0.3s;
+    &:hover,
+    &.active,
+    &:focus {
+      color: $yellew !important;
+    }
+  }
+  .dropdown .dropdown-menu .dropdown-item {
+    transition: 0.3s;
+    &:hover {
+      color: $yellew !important;
+      background-color: $white !important;
+      font-weight: bold;
+    }
+    ::placeholder {
+      color: #ffffff54;
+    }
+  }
+}
+.landing .container {
+  .login {
+    .other-login .sign-up {
+      color: $white !important;
+      transition: 0.3s;
+      &:hover {
+        color: $yellew !important;
+      }
+    }
+    .account-icon li a {
+      color: $white !important;
+      transition: 0.3s;
+      &:hover {
+        color: $yellew !important;
+      }
+    }
+  }
+}
+/* end header */
